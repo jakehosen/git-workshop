@@ -4,7 +4,29 @@
     1. Create a new repository.
     2. Clone someone else's repository (or one that you've created previously).
 
+## Cloning a respository
+Now we're going to clone the repository with these documents onto your local computer. [On the repository's GitHub page](https://github.com/jakehosen/git-workshop/tree/main), click the green **Code** button, switch the tab to **SSH**, and copy the URL. It'll look like:
+
+```
+git@github.com:username/repo-name.git
+```
+
+Then, in the directory where you want the repo to live:
+
+```bash
+git clone git@github.com:username/repo-name.git
+```
+
+You'll get a new folder named after the repository, with the full history downloaded.
+
+To clone into a specific folder name instead, pass it as an extra argument:
+
+```bash
+git clone git@github.com:username/repo-name.git my-folder-name
+```
+
 ## Creating a new repository
+### Here you are going to make a brand new repository that is owned by you. Make sure you do not put it in a subfolder of the git-workshop or any other repository.
 * Go to [GitHub.com](http://github.com) and click the button labeled ```New``` on the top left of your screen.
 !(Graphic showing 'new' button on the top left corner of the GitHub website)[image/new-repository.png].
 * On the next page, fill in the name of your new repository and a description. Keep the repository visible. You can add a readme on this screen or you can add it as part of the next step.
@@ -27,26 +49,6 @@ git push -u origin main
 ## Using .gitignore
 **.gitignore**: This is a file that tells Git what files should be excluded even when running a command to stage all files (```git add .```). This is essential for macOS users. In each folder, macOS will put a hidden file called ```.DS_Store```. If you don't add it to your .gitignore, all your directories will have this file listed. It gets annoying.
 
-## Cloning a respository
-Now we're going to clone the repository with these documents onto your local computer. [On the repository's GitHub page](https://github.com/jakehosen/git-workshop/tree/main), click the green **Code** button, switch the tab to **SSH**, and copy the URL. It'll look like:
-
-```
-git@github.com:username/repo-name.git
-```
-
-Then, in the directory where you want the repo to live:
-
-```bash
-git clone git@github.com:username/repo-name.git
-```
-
-You'll get a new folder named after the repository, with the full history downloaded.
-
-To clone into a specific folder name instead, pass it as an extra argument:
-
-```bash
-git clone git@github.com:username/repo-name.git my-folder-name
-```
 
 # Creating a New Commit from the Command Line
 
