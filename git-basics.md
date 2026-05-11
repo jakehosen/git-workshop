@@ -28,7 +28,7 @@ git push -u origin main
 **.gitignore**: This is a file that tells Git what files should be excluded even when running a command to stage all files (```git add .```). This is essential for macOS users. In each folder, macOS will put a hidden file called ```.DS_Store```. If you don't add it to your .gitignore, all your directories will have this file listed. It gets annoying.
 
 ## Cloning a respository
-Now we're going to clone the repository with these documents onto your local computer. (On the repository's GitHub page)[https://github.com/jakehosen/git-workshop/tree/main], click the green **Code** button, switch the tab to **SSH**, and copy the URL. It'll look like:
+Now we're going to clone the repository with these documents onto your local computer. [On the repository's GitHub page](https://github.com/jakehosen/git-workshop/tree/main), click the green **Code** button, switch the tab to **SSH**, and copy the URL. It'll look like:
 
 ```
 git@github.com:username/repo-name.git
