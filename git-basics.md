@@ -121,7 +121,8 @@ The `-m` flag lets you write the message inline. If you leave it off, git opens 
 ## Push your changes
 Presuming you are connected to the internet, you can now push your changes using ```git push```. You can stage more than one commit before using ```git push```.
 
-## Add some text about doing these steps yourself.
+# Try pushing a commit yourself
+Add or change a file inside the new repository you created and then following the instructions to use ```git add```, ```git commit```, and ```git push``` to stage and push your commit.
 
 
 # Branches
