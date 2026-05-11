@@ -5,7 +5,7 @@
     2. Clone someone else's repository (or one that you've created previously).
 
 ## Creating a new repository
-* Go to [GitHub.com](http://github.com) and click the button labeled ```New``` on the top left of your screen.
+* Go to (GitHub.com)[http://github.com] and click the button labeled ```New``` on the top left of your screen.
 !(Graphic showing 'new' button on the top left corner of the GitHub website)[image/new-repository.png].
 * On the next page, fill in the name of your new repository and a description. Keep the repository visible. You can add a readme on this screen or you can add it as part of the next step.
 * Once you're done, click the ```Create Repository``` button.
