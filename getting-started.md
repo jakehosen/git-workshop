@@ -5,8 +5,8 @@ A local terminal with git installed is required to fully access the features ava
 Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal. If you need a crash course in terminal basics, check out the [Mozilla Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).
 
 ## Software to install
-* [Git](https://git-scm.com/install/).
-* [GitHub CLI](https://cli.github.com/). This is a set of commands that automate common git functions, but only work for GitHub, not other git repositories.
+* [Git](https://git-scm.com/install/)
+* [GitHub CLI](https://cli.github.com/): This is a set of commands that automate common git functions, but only work for GitHub, not other git repositories.
 * [Visual Studio Code](http://code.visualstudio.com) (not to be confused with Visual Studio).
 * [RStudio](https://posit.co/download/rstudio-desktop).
 * *Optional:* Install GitHub Desktop GUI. Features are limited compared to the command line and so we will not directly use this in our workshop, but can provide useful visualization of commits.
