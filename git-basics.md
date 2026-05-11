@@ -50,6 +50,8 @@ git clone git@github.com:username/repo-name.git my-folder-name
 
 # Creating a New Commit from the Command Line
 
+## To follow along, add a file called example.r with some basic R code (just one line is enough) to the new repository you've created.
+
 A commit is a saved snapshot of your project at a moment in time. Making one is a three-step rhythm: **check what changed**, **stage what you want to save**, **commit it with a message**.
 
 ```bash
@@ -83,8 +85,6 @@ git diff
 
 ## Stage and push changes in a commit
 Staging is how you tell git *which* changes belong in this commit. You don't have to commit everything at once — you can group related changes together and leave others for later.
-
-## To follow along, add a file called example.r with some basic R code (just one line is enough) to the new repository you've created.
 
 **Make some small changes to your file and then follow the instructions below**
 
