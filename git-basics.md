@@ -121,6 +121,9 @@ The `-m` flag lets you write the message inline. If you leave it off, git opens 
 ## Push your changes
 Presuming you are connected to the internet, you can now push your changes using ```git push```. You can stage more than one commit before using ```git push```.
 
+## Add some text about doing these steps yourself.
+
+
 # Branches
 A key feature of Git is the ability to create and then subsequently merge branches. This allows you to test new things and allows different people to develop and debug code features independently.
 ![Graphic showing Git commits with multiple branching being split and then remerged](images/git-branching.png)
