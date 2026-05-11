@@ -20,7 +20,9 @@ git remote add origin git@github.com:jakehosen/example.git
 git push -u origin main
 ```
 * **Note**: Before entering the commands above, make sure that you have created a folder with the name of the repository and then navigated in the terminal into that folder.
-* **.gitignore**: This is a file that tells Git what files should be excluded even when running a command to stage all files (```git add .```). This is essential for macOS users. In each folder, macOS will put a hidden file called ```.DS_Store```. If you don't add it to your .gitignore, all your directories will have this file listed. It gets annoying.
+
+## Using .gitignore
+**.gitignore**: This is a file that tells Git what files should be excluded even when running a command to stage all files (```git add .```). This is essential for macOS users. In each folder, macOS will put a hidden file called ```.DS_Store```. If you don't add it to your .gitignore, all your directories will have this file listed. It gets annoying.
 
 ## Cloning a respository
 On the repository's GitHub page, click the green **Code** button, switch the tab to **SSH**, and copy the URL. It'll look like:
