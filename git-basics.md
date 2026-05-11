@@ -84,9 +84,12 @@ git diff
 ## Stage and push changes in a commit
 Staging is how you tell git *which* changes belong in this commit. You don't have to commit everything at once — you can group related changes together and leave others for later.
 
+## To follow along, add a file called example.r with some basic R code (just one line is enough) to the new repository you've created.
+
 **Make some small changes to your file and then follow the instructions below**
 
 **Stage a single file:**
+Maybe you just want to track the one file you just added. You can do that as follows:
 
 ```bash
 git add example.r
