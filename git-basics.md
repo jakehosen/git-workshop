@@ -5,12 +5,13 @@
     2. Clone someone else's repository (or one that you've created previously).
 
 ## Creating a new repository
-* Go to (GitHub.com)[http://github.com] and click the button labeled ```New``` on the top left of your screen.
+* Go to [GitHub.com](http://github.com) and click the button labeled ```New``` on the top left of your screen.
 !(Graphic showing 'new' button on the top left corner of the GitHub website)[image/new-repository.png].
 * On the next page, fill in the name of your new repository and a description. Keep the repository visible. You can add a readme on this screen or you can add it as part of the next step.
 * Once you're done, click the ```Create Repository``` button.
 * Now go to the command line to create the repository locally.
 * You want to navigate the terminal so that you are in the directory into which you want to put your new repository. You can use the ```cd``` comand to get into the right place and then you can make a new directory for the git workshop materials as follows: ```mkdir git-workshop```. Then type ```cd git-workshop```. That will put you in the folder for cloning your directory.
+    * You want to save your repository in your home directory, ```Documents```, ```Desktop```, or similar. Don't use the root directory (```c:/``` or ```/```) and don't use system folders like ```c:/windows```.
 * Using the following commands (copy and paste from the GitHub the version specific to your repository)
 ```
 echo "# example" >> README.md
