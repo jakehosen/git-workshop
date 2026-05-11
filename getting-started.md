@@ -1,7 +1,8 @@
 # Things to do before the workshop
 
 ## Using Terminals
-A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is also a terminal program called *gitbash* that is installed when you install Git. Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal.
+A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is a terminal program called *gitbash* that is installed when you install Git. There are also many other good terminal options out there.<br><br>
+Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal. If you need a crash course in terminal basics, check out the [Mozilla Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).
 
 ## Software to install
 * [Git](https://git-scm.com/install/).
@@ -13,3 +14,4 @@ A local terminal with git installed is required to fully access the features ava
 ## Configuring your terminal for Git
 The easiest way to access GitHub repositories from the terminal is via SSH. This requires setting up a new SSH key and uploaded the public version of this key to Github
 * Setup a new SSH key using the [operating system-specific instructions found here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+* Add the SSH Key to your [GitHub Account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
