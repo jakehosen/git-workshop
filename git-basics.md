@@ -9,7 +9,9 @@
 !(Graphic showing 'new' button on the top left corner of the GitHub website)[image/new-repository.png].
 * On the next page, fill in the name of your new repository and a description. Keep the repository visible. You can add a readme on this screen or you can add it as part of the next step.
 * Once you're done, click the ```Create Repository``` button.
-* Now go to the command line and create the repository locally using the following commands (copy and paste from the GitHub the version specific to your respository)
+* Now go to the command line to create the repository locally.
+* You want to navigate the terminal so that you are in the directory into which you want to put your new repository. You can use the ```cd``` comand to get into the right place and then you can make a new directory for the git workshop materials as follows: ```mkdir git-workshop```. Then type ```cd git-workshop```. That will put you in the folder for cloning your directory.
+* Using the following commands (copy and paste from the GitHub the version specific to your repository)
 ```
 echo "# example" >> README.md
 git init
