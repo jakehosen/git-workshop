@@ -285,7 +285,7 @@ git branch -v
 git branch -m new-name
 ```
 
-**Bail out of changes you started but don't want to keep** (before committing):
+**Remove changes you started but don't want to keep** (before committing):
 
 ```bash
 git restore .
@@ -293,6 +293,11 @@ git restore .
 
 This reverts unstaged changes in your working folder. Useful when an experiment isn't going anywhere and you want a clean slate to switch branches.
 
+**Temporarily save uncommitted changes that you have made locally**
+```bash
+git stash
+```
+This could be used if you want to switch branches, but you have changes on the current branch that you are not ready to put into a commit.
 
 
 # Example: Rewind to a previous commit and make a new branch.
