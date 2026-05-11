@@ -3,7 +3,8 @@
 A lot of the time if you are working on a bigger project you will want to fork the repository, make the required changes, and then request that these be merged with a *pull request*.<br><br>
 A pull request is an unintuitive term (in my opinion). If you make a pull request, you are asking the maintainer of a repository to pull changes you have made to that repository. So from your perspective, it is more like a push than a pull.
 
-!(Workflow depciting forking a repository, making changes, and opening a pull request)[images/fork-and-pull-request.png]
+
+![Workflow depciting forking a repository, making changes, and opening a pull request](images/fork-and-pull-request.png)
 
 # Here's how you do this:
 
