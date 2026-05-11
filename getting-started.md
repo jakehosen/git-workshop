@@ -4,8 +4,10 @@
 A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is also a terminal program called *gitbash* that is installed when you install Git. Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal.
 
 ## Software to install
-* [Install Git](https://git-scm.com/install/).
-* [Install GitHub CLI](https://cli.github.com/). This is a set of commands that automate common git functions, but only work for GitHub, not other git repositories.
+* [Git](https://git-scm.com/install/).
+* [GitHub CLI](https://cli.github.com/). This is a set of commands that automate common git functions, but only work for GitHub, not other git repositories.
+* [Visual Studio Code](http://code.visualstudio.com) (not to be confused with Visual Studio).
+* [RStudio](https://posit.co/download/rstudio-desktop).
 * *Optional:* Install GitHub Desktop GUI. Features are limited compared to the command line and so we will not directly use this in our workshop, but can provide useful visualization of commits.
 
 ## Configuring your terminal for Git
