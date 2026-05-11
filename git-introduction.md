@@ -51,7 +51,7 @@ analysis_final_FINAL_use_this_one.R
 
 
 ---
-# Git Fundamentals
+# Git Fundamentals (ADD SOME VISUALS AND BREAK UP THESE SLIDES)
 - Repository: A folder where Git tracks your project and its history.
 - Clone: Make a copy of a remote repository on your computer.
 - Stage: Tell Git which changes you want to save next.
