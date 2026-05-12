@@ -107,7 +107,7 @@ By the end you'll have walked through the entire fork-and-PR workflow *and* reso
 
 Pair up. Decide who plays which role:
 
-- $\textcolor{green}{\text{**Maintainer** — creates the repo, owns `main`, will merge the PR at the end.}}$
+- $\textcolor{green}{\text{Maintainer: creates the repo, owns `main`, will merge the PR at the end.}}$
 - **Contributor** — forks the repo, makes a change, opens the pull request.
 
 You can switch roles and repeat if there's time.
