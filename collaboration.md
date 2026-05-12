@@ -107,13 +107,13 @@ By the end you'll have walked through the entire fork-and-PR workflow *and* reso
 
 Pair up. Decide who plays which role:
 
-- <span style="color:red">**Maintainer** — creates the repo, owns `main`, will merge the PR at the end.</span>
-- **Contributor** — forks the repo, makes a change, opens the pull request.
+- $\color{yellowgreen}{\textsf{\textbf{Maintainer:}}}$ creates the repo, owns `main`, will merge the PR at the end.
+- $\color{blue}{\textsf{\textbf{Contributor:}}}$ forks the repo, makes a change, opens the pull request.
 
 You can switch roles and repeat if there's time.
 
 
-## Part 1 — Maintainer: create the repo
+## $\color{yellowgreen}{\textsf{\textbf{Part 1 — Maintainer: create the repo}}}$
 
 
 1. From any directory, create a new local repo:
@@ -243,7 +243,7 @@ Both branches changed the same line so Git can't automatically merge. You have t
 
 ---
 
-## Part 5 — Resolve the conflict together
+## Part 5 — Resolve the conflict
 
 There are a couple of ways to resolve a PR conflict.
 
