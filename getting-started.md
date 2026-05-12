@@ -9,6 +9,23 @@ nav_order: 1
 ## Using Terminals
 A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is a terminal program called *gitbash* that is installed when you install Git. There are also many other good terminal options out there.<br><br>
 Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal. If you need a crash course in terminal basics, check out the [Mozilla Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).<br><br>
+
+### Note about shortcuts
+For Linux and Windows users, terminal clients have a conflict with common shortcuts. The most significant of these is the fact that ```ctrl+c``` in the terminal kills (cancels) whatever program/process is running. This is an issue because ```ctrl+c``` is also the most commonly used copy shortcut. There are two solutions to this:
+  1. All the traditional shortcuts have shift added. So to copy you change ```ctrl+c``` to ```ctrl+shift+c```.
+  2. Use a different set of shortcuts. For example, copy is ```shift+insert```. This is the default setting for a lot of windows terminal software.
+If you prefer the ```shift``` method, you can go into options for programs like Git Bash and select ```ctrl+shift+letter shortcuts``` as indicated in the graphic below.
+![graphic show options for turning on shift shortcuts in git bash](images/git-bash-options.png)
+
+### Note for Windows Powershell users.
+I recommend installing Vim and Nano, two common text editors in Windows Powershell. You can do this with the following commands:
+```
+winget install vim.vim
+winget install GNU.Nano
+```
+
+
+### Vim text editor
 If you are not familiar with vim, the most commonly used terminal text editor, I recommend checking out [this brief primer](vim-intro.md).
 
 ## Software to install
