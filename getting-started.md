@@ -41,4 +41,6 @@ The easiest way to access GitHub repositories from the terminal is via SSH. This
 * Add the SSH Key to your [GitHub Account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
 ## Watch this video
+Check out these two videos. The first is a very brief description of Git and its basic functionality. The second is a talk from a recent open source software conference describing a particular philosphy for programming with Git. I think you'll be able to understand the major points of the second video before the workshop, but you may want to revisit this video after you've gotten some hands-on experience with Git.
+[Basic 100 second intro to Git](https://www.youtube.com/watch?v=hwP7WQkmECE&t=9s)
 [Atomic flow coding presentation](https://youtu.be/tu9mtQXM-7Y?si=QLVbhUrYttgIW1M8)
