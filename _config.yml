@@ -14,7 +14,7 @@ plugins:
 # Sidebar / theme settings
 search_enabled: true
 heading_anchors: true
-color_scheme: light
+color_scheme: dark
 
 # Aux links in the top-right corner
 aux_links:
@@ -23,8 +23,6 @@ aux_links:
 
 # Don't try to build these as Jekyll pages
 exclude:
-  - git-workshop.Rproj
-  - git-introduction.md      # Marp slide source — has its own front matter
   - marp.md                  # empty placeholder
   - github-pages.md          # empty placeholder
   - RStudio.md               # empty placeholder
