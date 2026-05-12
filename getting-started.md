@@ -7,7 +7,7 @@ nav_order: 1
 # Things to do before the workshop
 
 ## Using Terminals
-A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is a terminal program called *gitbash* that is installed when you install Git. There are also many other good terminal options out there.<br><br>
+A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is also a terminal program called *gitbash* that is installed when you install Git that has similar functionality. There are also many other good terminal options out there to fit the many preferences that different programmers have.<br><br>
 Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal. If you need a crash course in terminal basics, check out the [Mozilla Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).<br><br>
 
 ### Note about shortcuts
