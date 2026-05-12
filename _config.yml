@@ -1,0 +1,16 @@
+title: Git Workshop
+description: A workshop on using Git and GitHub
+theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+
+# Sidebar settings
+search_enabled: true
+heading_anchors: true
+
+# Aux links in the top-right corner (optional)
+aux_links:
+  "View on GitHub":
+    - "https://github.com/jakehosen/git-workshop"
+
+# Color scheme (optional)
+color_scheme: light
