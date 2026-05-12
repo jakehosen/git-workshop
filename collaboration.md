@@ -109,11 +109,11 @@ Pair up. Decide who plays which role:
 
 - $\color{yellowgreen}{\textsf{\textbf{Maintainer:}}}$ creates the repo, owns `main`, will merge the PR at the end.
 - $\color{blue}{\textsf{\textbf{Contributor:}}}$ forks the repo, makes a change, opens the pull request.
-- 
+
 You can switch roles and repeat if there's time.
 
 
-## Part 1 — Maintainer: create the repo
+## Part 1 — $\color{yellowgreen}{\textsf{\textbf{Maintainer:}}}$ create the repo
 
 
 1. From any directory, create a new local repo:
