@@ -10,7 +10,7 @@ A hands-on workshop covering the essentials of Git and coding best practices.
 
 ## What's covered
 
-1. [Getting Started]({% link getting-started.md %}): software to install and terminal setup before the workshop.
+1. [Getting Started](getting-started.md): software to install and terminal setup before the workshop.
 2. [Git Basics]({% link git-basics.md %}): creating, cloning, staging, committing, and branching.
 3. [Collaboration]({% link collaboration.md %}): forking, pull requests, and working with others.
 4. [Using Git with VS Code]({% link VS Code.md %}): IDE integration.
