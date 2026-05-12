@@ -1,3 +1,9 @@
+---
+title: Getting Started
+layout: default
+nav_order: 1
+---
+
 # Things to do before the workshop
 
 ## Using Terminals

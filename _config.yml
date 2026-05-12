@@ -1,16 +1,34 @@
 title: Git Workshop
 description: A workshop on using Git and GitHub
-theme: just-the-docs
+
+# Use remote_theme (NOT `theme:`) so this works with
+# actions/jekyll-build-pages, which uses the github-pages gem
+# allowlist and does not include just-the-docs as a local theme.
 remote_theme: just-the-docs/just-the-docs
 
-# Sidebar settings
+# jekyll-remote-theme is required to load remote_theme on GitHub Pages
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+# Sidebar / theme settings
 search_enabled: true
 heading_anchors: true
+color_scheme: light
 
-# Aux links in the top-right corner (optional)
+# Aux links in the top-right corner
 aux_links:
   "View on GitHub":
     - "https://github.com/jakehosen/git-workshop"
 
-# Color scheme (optional)
-color_scheme: light
+# Don't try to build these as Jekyll pages
+exclude:
+  - git-workshop.Rproj
+  - git-introduction.md      # Marp slide source — has its own front matter
+  - marp.md                  # empty placeholder
+  - github-pages.md          # empty placeholder
+  - RStudio.md               # empty placeholder
+  - README.md                # we use index.md as the home page
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

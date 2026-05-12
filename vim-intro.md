@@ -1,3 +1,9 @@
+---
+title: Vim Basics
+layout: default
+nav_order: 5
+---
+
 # Vim Basics for Git Users
 
 Sooner or later, git is going to drop you into a text editor you didn't ask for. You'll run `git commit` without the `-m` flag, or git will need you to confirm a merge message during conflict resolution, and you're in an unintuitive and minimalist interface.

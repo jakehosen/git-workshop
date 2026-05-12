@@ -1,3 +1,9 @@
+---
+title: Collaboration
+layout: default
+nav_order: 3
+---
+
 # Collaborating with Git
 
 A lot of the time if you are working on a bigger project you will want to fork the repository, make the required changes, and then request that these be merged with a *pull request*.<br><br>

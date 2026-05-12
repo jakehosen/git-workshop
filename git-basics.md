@@ -1,3 +1,9 @@
+---
+title: Git Basics
+layout: default
+nav_order: 2
+---
+
 # Git Basics
 ## Creating and Cloning Repositories
 * There are two ways to get a repository on your computer to start your work:
