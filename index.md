@@ -6,7 +6,7 @@ nav_order: 0
 
 # Git Workshop
 
-A hands-on workshop covering the essentials of Git and GitHub.
+A hands-on workshop covering the essentials of Git and coding best practices.
 
 ## What's covered
 
