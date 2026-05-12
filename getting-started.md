@@ -15,7 +15,7 @@ For Linux and Windows users, terminal clients have a conflict with common shortc
   1. All the traditional shortcuts have shift added. So to copy you change ```ctrl+c``` to ```ctrl+shift+c```.
   2. Use a different set of shortcuts. For example, copy is ```shift+insert```. This is the default setting for a lot of windows terminal software.
 If you prefer the ```shift``` method, you can go into options for programs like Git Bash and select ```ctrl+shift+letter shortcuts``` as indicated in the graphic below.
-![graphic show options for turning on shift shortcuts in git bash](images/git-bash-options.png)
+<br>![graphic show options for turning on shift shortcuts in git bash](images/git-bash-options.png)
 
 ### Note for Windows Powershell users.
 I recommend installing Vim and Nano, two common text editors in Windows Powershell. You can do this with the following commands:
