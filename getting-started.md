@@ -8,7 +8,8 @@ nav_order: 1
 
 ## Using Terminals
 A local terminal with git installed is required to fully access the features available from Git and GitHub. For macOS and Linux, the built-in terminal will work. For Windows, you can use Windows Powershell. There is a terminal program called *gitbash* that is installed when you install Git. There are also many other good terminal options out there.<br><br>
-Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal. If you need a crash course in terminal basics, check out the [Mozilla Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).
+Pick a terminal to use and make sure that git and related software are installed and working on your chosen terminal. If you need a crash course in terminal basics, check out the [Mozilla Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line).<br><br>
+If you are not familiar with vim, the most commonly used terminal text editor, I recommend checking out [this brief primer](vim-intro.md).
 
 ## Software to install
 * [Git](https://git-scm.com/install/)
