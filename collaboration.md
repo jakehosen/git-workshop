@@ -113,7 +113,7 @@ Pair up. Decide who plays which role:
 You can switch roles and repeat if there's time.
 
 
-## Part 1 — $\color{yellowgreen}{\textsf{\textbf{Maintainer:}}}$ create the repo
+$\color{yellowgreen}{\textsf{\textbf{Part 1 — Maintainer: create the repo}}}$
 
 
 1. From any directory, create a new local repo:
