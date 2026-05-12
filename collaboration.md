@@ -243,7 +243,7 @@ Both branches changed the same line so Git can't automatically merge. You have t
 
 ---
 
-## Part 5 — Resolve the conflict together
+## Part 5 — Resolve the conflict
 
 There are a couple of ways to resolve a PR conflict.
 
