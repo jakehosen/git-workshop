@@ -114,9 +114,9 @@ By the end you'll have walked through the entire fork-and-PR workflow *and* reso
 Pair up. Decide who plays which role:
 
 This paragraph will be purple.
-{: .text-purple-300 }
-- [Contributor]{: .label .label-blue } forks the repo, makes a change, opens the pull request.
+
 - $\color{yellowgreen}{\textsf{\textbf{Maintainer:}}}$ creates the repo, owns `main`, will merge the PR at the end.
+{: .text-green-300 }
 - $\color{blue}{\textsf{\textbf{Contributor:}}}$ forks the repo, makes a change, opens the pull request.
 
 You can switch roles and repeat if there's time.
