@@ -145,10 +145,12 @@ You can switch roles and repeat if there's time.
    git commit -m "Initial commit"
    ```
 
-4. Create the repo on GitHub and push using GitHub CLI:
+4. Create the repo on GitHub like we did in the getting started exercise. Then push the changes using the instructions on the new repository page. They will look like the commands below, but adjusted for username and repository name, so use the version on the website.
 
    ```bash
-   gh repo create conflict-demo --public --source=. --push
+   git remote add origin git@github.com:your-username/conflict-demo.git
+   git branch -M main
+   git push -u origin main
    ```
 
 5. Tell your partner the repo path — `your-username/conflict-demo`. You can also open it in the browser to confirm it's live:
