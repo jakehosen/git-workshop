@@ -377,6 +377,13 @@ git switch -c new-direction 2e8a91f
 - `new-direction` is the name of your new branch — call it whatever fits.
 - `2e8a91f` is the commit hash you chose.
 
+To push your changes to the repository, use the following commands:
+```
+git add.
+git commit -m "enter descriptive message"
+git push
+```
+
 That's it. You're now on a fresh branch that starts at that earlier commit.
 
 ---
