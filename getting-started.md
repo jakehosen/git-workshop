@@ -4,6 +4,8 @@ layout: default
 nav_order: 1
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
 # Things to do before the workshop
 
 ## Using Terminals

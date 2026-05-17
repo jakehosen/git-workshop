@@ -4,6 +4,8 @@ layout: default
 nav_order: 4
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
 # Collaborating with Git
 {: .no_toc }
 

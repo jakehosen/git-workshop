@@ -4,6 +4,8 @@ layout: home
 nav_order: 0
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
 # Git Workshop
 
 A hands-on workshop covering the essentials of Git and coding best practices.
