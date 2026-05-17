@@ -5,6 +5,17 @@ nav_order: 2
 ---
 
 # Git Basics
+{: .no_toc }
+
+<details open markdown="block">
+  <summary>
+    Contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 ## Creating and Cloning Repositories
 * There are two ways to get a repository on your computer to start your work:
     1. Create a new repository.
@@ -33,6 +44,7 @@ git clone git@github.com:username/repo-name.git my-folder-name
 
 ## Creating a new repository
 ### Here you are going to make a brand new repository that is owned by you. Make sure you do not put it in a subfolder of the git-workshop or any other repository.
+{: .no_toc }
 * Go to [GitHub.com](http://github.com) and click the button labeled ```New``` on the top left of your screen.
 [Graphic showing 'new' button on the top left corner of the GitHub website](image/new-repository.png).
 * On the next page, fill in the name of your new repository and a description. Keep the repository visible. You can add a readme on this screen or you can add it as part of the next step.
@@ -59,6 +71,7 @@ git push -u origin main
 # Creating a New Commit from the Command Line
 
 ## To follow along, add a file called example.r with some basic R code (just one line is enough) to the new repository you've created.
+{: .no_toc }
 
 A commit is a saved snapshot of your project at a moment in time. Making one is a three-step rhythm: **check what changed**, **stage what you want to save**, **commit it with a message**.
 
@@ -175,6 +188,7 @@ Run `git branch` again and you'll see both:
 Notice the asterisk is still on `main`. **Creating a branch doesn't switch to it.** It just makes the branch exist.
 
 ### Naming branches
+{: .no_toc }
 
 Use short, descriptive names. A few conventions you'll see:
 
