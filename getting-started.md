@@ -33,6 +33,7 @@ If you are not familiar with vim, the most commonly used terminal text editor, I
 ## Software to install
 * [Git](https://git-scm.com/install/)
 * [GitHub CLI](https://cli.github.com/): This is a set of commands that automate common git functions, but only work for GitHub, not other git repositories.
+  * If you are using Windows and do not have administrator access, use the following command to install for one user without an admin password: ```winget install --id GitHub.cli --scope user```.
 * [Visual Studio Code](http://code.visualstudio.com) (not to be confused with Visual Studio).
 * [RStudio](https://posit.co/download/rstudio-desktop)
 * *Optional:* Install GitHub Desktop GUI. Features are limited compared to the command line and so we will not directly use this in our workshop, but can provide useful visualization of commits.
