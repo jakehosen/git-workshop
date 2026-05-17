@@ -4,6 +4,8 @@ layout: default
 nav_order: 5
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
 # Using git and VS Code
 VS Code has git support built in. If you have git properly installed, VS Code will automatically detect that when you open a directory/folder.
 
