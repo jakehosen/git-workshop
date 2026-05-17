@@ -42,6 +42,7 @@ If you are not familiar with vim, the most commonly used terminal text editor, I
 The easiest way to access GitHub repositories from the terminal is via SSH. This requires setting up a new SSH key and uploaded the public version of this key to Github
 * Setup a new SSH key using the [operating system-specific instructions found here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 * Add the SSH Key to your [GitHub Account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+* You can confirm you have your SSH key setup for Github with the following command: ```ssh -T git@github.com```
 
 ## Watch this video
 Check out these two videos. The first is a very brief description of Git and its basic functionality. The second is a talk from a recent open source software conference describing a particular philosphy for programming with Git. I think you'll be able to understand the major points of the second video before the workshop, but you may want to revisit this video after you've gotten some hands-on experience with Git.
