@@ -195,3 +195,6 @@ analysis_final_FINAL_use_this_one.R
 - Read the documents: help files are your friends.
 - Try to figure it out: use web search/stack overflow search of errors or other questions you might have before asking another human or AI.
 - Undoing a problem created by a bad command is time consuming: always make sure you know what a particulate command or action will do before executing.
+- Do all the steps of your instructions **in order**.
+- If you can copy and paste commands either by highlighting or better yet with the copy/paste button (the two rectangle icon).
+![graphic demonstrating the copy/paste icon](images/copy-paste.png)
