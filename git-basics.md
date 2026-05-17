@@ -387,3 +387,80 @@ git log --oneline
 You'll see the history up to your chosen commit, but **not** the commits that came after on `main`. Those still exist — they're just on `main`, not here.
 
 ---
+
+
+# Exercise: Resolve a conflict
+## Create a new repository on github
+{: .no_toc }
+Using the instructions above, create a repository. Use the instructions on the GitHub website to initialize the repository on your computer.
+## Add a file
+{: .no_toc }
+Once you have created the repository on GitHub and have a local version downloaded, add a file. Let's make a small markdown file called ```produce.md``` using nano.
+- Make sure that you are in the repository directory on your terminal.
+- Use nano to create and open the file using ```nano produce.md```. Alternatively you can open with vim using ```vim produce.md```.
+- Add the following text to the markdown file:
+```
+Washington State Agricultural Product: [Add One]
+```
+- If you are using nano you can use ```ctrl+x``` to save and exit your file (press ```y``` then ```enter``` to confirm). If you are using vim, hit the ```escape``` key and then type ```:wq``` followed by enter.
+- Commit this starting version to `main` so the file exists on both branches you're about to work with:
+```
+git add produce.md
+git commit -m "add produce.md"
+git push
+```
+## Make a new branch and edit the markdown file
+{: .no_toc }
+- Create a new branch and switch to it: ```git switch -c first_product```
+- Use your text editor of choice to replace ```[Add One]``` with an agricultural product.
+- Commit and push your changes. Because this branch doesn't yet exist on GitHub, the first push needs to set the upstream:
+```
+git add .
+git commit -m "first product"
+git push -u origin first_product
+```
+## Switch back to main and edit the markdown file with a conflicting product
+{: .no_toc }
+- Switch back to main with ```git switch main```.
+- Use your text editor of choice to replace ```[Add One]``` with an agricultural product that is different from the one that you put on your branch.
+- Commit your change on `main`:
+```
+git add .
+git commit -m "different product on main"
+```
+- Then merge your branch into main: ```git merge first_product```.
+
+## Resolve your conflict
+{: .no_toc }
+Because `main` and `first_product` both changed the same line of `produce.md`, git can't merge them automatically and will report a conflict. Your job is to tell git which version you want (or write a new version that combines them).
+
+- Check which files are conflicted:
+```
+git status
+```
+You should see `produce.md` listed under "Unmerged paths."
+- Open `produce.md` in your editor. Git has inserted conflict markers that look like this:
+```
+Washington State Agricultural Product: <<<<<<< HEAD
+cherries
+=======
+apples
+>>>>>>> first_product
+```
+The text between `<<<<<<< HEAD` and `=======` is the version currently on `main`. The text between `=======` and `>>>>>>> first_product` is the version coming in from your branch.
+- Edit the file to look the way you want the final version to look, and **delete all three marker lines** (`<<<<<<<`, `=======`, `>>>>>>>`). For example, if you want to keep both:
+```
+Washington State Agricultural Product: cherries and apples
+```
+- Save and exit (`ctrl+x`, `y`, `enter` in nano; `esc` then `:wq` in vim).
+- Stage the resolved file and complete the merge:
+```
+git add produce.md
+git commit -m "resolve merge conflict in produce.md"
+git push
+```
+- Confirm the merge is done and the working tree is clean:
+```
+git status
+```
+You should see "nothing to commit, working tree clean."
