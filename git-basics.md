@@ -390,9 +390,11 @@ You'll see the history up to your chosen commit, but **not** the commits that ca
 
 
 # Exercise: Resolve a conflict
+
 ## Create a new repository on github
 {: .no_toc }
 Using the instructions above, create a repository. Use the instructions on the GitHub website to initialize the repository on your computer.
+
 ## Add a file
 {: .no_toc }
 Once you have created the repository on GitHub and have a local version downloaded, add a file. Let's make a small markdown file called ```produce.md``` using nano.
@@ -409,8 +411,10 @@ git add produce.md
 git commit -m "add produce.md"
 git push
 ```
+
 ## Make a new branch and edit the markdown file
 {: .no_toc }
+
 - Create a new branch and switch to it: ```git switch -c first_product```
 - Use your text editor of choice to replace ```[Add One]``` with an agricultural product.
 - Commit and push your changes. Because this branch doesn't yet exist on GitHub, the first push needs to set the upstream:
@@ -419,8 +423,10 @@ git add .
 git commit -m "first product"
 git push -u origin first_product
 ```
+
 ## Switch back to main and edit the markdown file with a conflicting product
 {: .no_toc }
+
 - Switch back to main with ```git switch main```.
 - Use your text editor of choice to replace ```[Add One]``` with an agricultural product that is different from the one that you put on your branch.
 - Commit your change on `main`:
