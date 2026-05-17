@@ -4,6 +4,15 @@ layout: default
 nav_order: 3
 ---
 
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
+
 # Collaborating with Git
 
 A lot of the time if you are working on a bigger project you will want to fork the repository, make the required changes, and then request that these be merged with a *pull request*.<br><br>
@@ -148,7 +157,7 @@ You can switch roles and repeat if there's time.
    git commit -m "Initial commit"
    ```
 
-4. Create the repo on GitHub like we did in the getting started exercise. Then push the changes using the instructions on the new repository page. They will look like the commands below, but adjusted for username and repository name, so use the version on the website.
+4. Create the repo on GitHub repository on the website like we did in the getting started exercise. Then push the changes using the instructions on the new repository page. They will look like the commands below, but adjusted for username and repository name, so **use the version of the commands on the website**.
 
    ```bash
    git remote add origin git@github.com:your-username/conflict-demo.git
