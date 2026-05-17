@@ -1,7 +1,7 @@
 ---
 title: Vim Basics
 layout: default
-nav_order: 5
+nav_order: 6
 ---
 
 # Vim Basics for Git Users
