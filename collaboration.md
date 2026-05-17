@@ -137,7 +137,7 @@ This paragraph will be purple.
 You can switch roles and repeat if there's time.
 
 
-### $\color{yellowgreen}{\textsf{\textbf{Part 1 — Maintainer: create the repo}}}$
+### Part 1 — Maintainer: create the repo
 {: .text-green-300 .no_toc }
 
 
