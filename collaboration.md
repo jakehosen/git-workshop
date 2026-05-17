@@ -23,6 +23,7 @@ A pull request is an unintuitive term (in my opinion). If you make a pull reques
 ## Fork a repository, change it, and make a pull request
 
 ### 1. Fork the repository
+{: .no_toc }
 
 From any directory, run:
 
@@ -46,6 +47,7 @@ cd git-workshop
 ---
 
 ### 2. Create a branch for your changes
+{: .no_toc }
 
 Don't work directly on `main`. Make a branch:
 
@@ -58,6 +60,7 @@ Name it something descriptive — `fix-typo-in-readme`, `add-example-script`, et
 ---
 
 ### 3. Make changes, commit, push
+{: .no_toc }
 
 Edit the files, then stage and commit:
 
@@ -77,6 +80,7 @@ The `-u` sets up tracking so future `git push`es on this branch don't need extra
 ---
 
 ### 4. Open the pull request
+{: .no_toc }
 
 Still in the project directory, run:
 
@@ -94,6 +98,7 @@ You'll be prompted for:
 When you confirm, `gh` opens the PR on GitHub and prints the URL.
 
 #### Alternate shorter method for creating a PR
+{: .no_toc }
 
 If you already know what you want to say:
 
@@ -118,6 +123,7 @@ By the end you'll have walked through the entire fork-and-PR workflow *and* reso
 ---
 
 ### Roles
+{: .no_toc }
 
 Pair up. Decide who plays which role:
 
@@ -131,6 +137,7 @@ You can switch roles and repeat if there's time.
 
 
 ### $\color{yellowgreen}{\textsf{\textbf{Part 1 — Maintainer: create the repo}}}$
+{: .no_toc }
 
 
 1. From any directory, create a new local repo:
@@ -172,6 +179,7 @@ You can switch roles and repeat if there's time.
 
 
 ### Part 2 — Contributor: fork, clone, and prepare a change
+{: .no_toc }
 
 Get the repository address as described above
 
@@ -210,6 +218,7 @@ Get the repository address as described above
    git push -u origin my-favorite-color
    ```
 ### Part 3 — Maintainer: make a conflicting change
+{: .no_toc }
 
 While your contributor was working, you also had opinions about color. You're going to change the **same line** to something different.
 
@@ -240,6 +249,7 @@ Now `main` on GitHub has *your* version of that line. The Contributor's fork sti
 ---
 
 ### Part 4 — Contributor: open the pull request
+{: .no_toc }
 
 
 From inside the project folder, open the PR:
@@ -263,10 +273,12 @@ Both branches changed the same line so Git can't automatically merge. You have t
 ---
 
 ### Part 5 — Resolve the conflict
+{: .no_toc }
 
 There are a couple of ways to resolve a PR conflict.
 
 ### As the contributor
+{: .no_toc }
 1. Pull the latest `main` from upstream into your PR branch:
 
    ```bash
@@ -322,6 +334,7 @@ There are a couple of ways to resolve a PR conflict.
 
 
 ### Part 6 — Maintainer: merge the PR
+{: .no_toc }
 
 
 1. Review the change on the PR page.
