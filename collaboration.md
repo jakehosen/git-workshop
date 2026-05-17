@@ -5,6 +5,8 @@ nav_order: 3
 ---
 
 # Collaborating with Git
+{: .no_toc }
+
 <details open markdown="block">
   <summary>
     Contents
