@@ -3,6 +3,7 @@ title: Git Basics
 layout: default
 nav_order: 2
 ---
+ <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
 # Git Basics
 {: .no_toc }
@@ -152,6 +153,10 @@ Add or change a file inside the new repository you created and then following th
 # Branches
 A key feature of Git is the ability to create and then subsequently merge branches. This allows you to test new things and allows different people to develop and debug code features independently.
 ![Graphic showing Git commits with multiple branching being split and then remerged](images/git-branching.png)
+
+## Automatically setup branch tracking
+If you do not run the following command, you will have to tell the software manually each time which branch should be attached. I recommend running this so you don't have to worry about it.
+```git config --global push.autoSetupRemote true```
 
 ## See which branch you're on
 
