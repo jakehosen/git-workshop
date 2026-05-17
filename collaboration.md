@@ -130,15 +130,16 @@ Pair up. Decide who plays which role:
 This paragraph will be purple.
 
 - Maintainer: creates the repo, owns `main`, will merge the PR at the end.
+{: .text-green-000 }
 
 - Contributor: forks the repo, makes a change, opens the pull request.
-{: .text-blue-300 }
+{: .text-blue-000 }
 
 You can switch roles and repeat if there's time.
 
 
 ### Part 1 — Maintainer: create the repo
-{: .text-green-300 .no_toc }
+{: .text-green-000 .no_toc }
 
 
 1. From any directory, create a new local repo:
@@ -180,7 +181,7 @@ You can switch roles and repeat if there's time.
 
 
 ### Part 2 — Contributor: fork, clone, and prepare a change
-{: .text-blue-300 .no_toc }
+{: .text-blue-000 .no_toc }
 
 Get the repository address as described above
 
@@ -218,8 +219,9 @@ Get the repository address as described above
    git commit -m "Set favorite color to cerulean"
    git push -u origin my-favorite-color
    ```
+
 ### Part 3 — Maintainer: make a conflicting change
-{: .text-green-300 .no_toc }
+{: .text-green-000 .no_toc }
 
 While your contributor was working, you also had opinions about color. You're going to change the **same line** to something different.
 
@@ -250,7 +252,7 @@ Now `main` on GitHub has *your* version of that line. The Contributor's fork sti
 ---
 
 ### Part 4 — Contributor: open the pull request
-{: .text-blue-300 .no_toc }
+{: .text-blue-000 .no_toc }
 
 
 From inside the project folder, open the PR:
@@ -279,7 +281,7 @@ Both branches changed the same line so Git can't automatically merge. You have t
 There are a couple of ways to resolve a PR conflict.
 
 ### As the contributor
-{: .text-blue-300 .no_toc }
+{: .text-blue-000 .no_toc }
 1. Pull the latest `main` from upstream into your PR branch:
 
    ```bash
@@ -335,7 +337,7 @@ There are a couple of ways to resolve a PR conflict.
 
 
 ### Part 6 — Maintainer: merge the PR
-{: .text-green-300 .no_toc }
+{: .text-green-000 .no_toc }
 
 
 1. Review the change on the PR page.
