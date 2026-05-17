@@ -4,16 +4,15 @@ layout: default
 nav_order: 3
 ---
 
+# Collaborating with Git
 <details open markdown="block">
   <summary>
-    Table of contents
+    Contents
   </summary>
   {: .text-delta }
 - TOC
 {:toc}
 </details>
-
-# Collaborating with Git
 
 A lot of the time if you are working on a bigger project you will want to fork the repository, make the required changes, and then request that these be merged with a *pull request*.<br><br>
 A pull request is an unintuitive term (in my opinion). If you make a pull request, you are asking the maintainer of a repository to pull changes you have made to that repository. So from your perspective, it is more like a push than a pull.
@@ -21,9 +20,9 @@ A pull request is an unintuitive term (in my opinion). If you make a pull reques
 
 ![Workflow depciting forking a repository, making changes, and opening a pull request](images/fork-and-pull-request.png)
 
-# Here's how you do this:
+## Fork a repository, change it, and make a pull request
 
-## 1. Fork the repository
+### 1. Fork the repository
 
 From any directory, run:
 
@@ -46,7 +45,7 @@ cd git-workshop
 
 ---
 
-## 2. Create a branch for your changes
+### 2. Create a branch for your changes
 
 Don't work directly on `main`. Make a branch:
 
@@ -58,7 +57,7 @@ Name it something descriptive — `fix-typo-in-readme`, `add-example-script`, et
 
 ---
 
-## 3. Make changes, commit, push
+### 3. Make changes, commit, push
 
 Edit the files, then stage and commit:
 
@@ -77,7 +76,7 @@ The `-u` sets up tracking so future `git push`es on this branch don't need extra
 
 ---
 
-## 4. Open the pull request
+### 4. Open the pull request
 
 Still in the project directory, run:
 
@@ -94,7 +93,7 @@ You'll be prompted for:
 
 When you confirm, `gh` opens the PR on GitHub and prints the URL.
 
-### Shortcut: one-liner
+#### Alternate shorter method for creating a PR
 
 If you already know what you want to say:
 
@@ -110,7 +109,7 @@ gh pr view --web
 
 
 
-# Pair Exercise: Forks, Pull Requests, and Merge Conflicts
+## Pair Exercise: Forks, Pull Requests, and Merge Conflicts
 
 In this exercise, you and a partner will simulate a real-world situation where two people edit the same file in the same project at the same time. One of you owns the repo; the other forks it and contributes back. **Both of you edit the same line and you have to fix it.**
 
@@ -118,7 +117,7 @@ By the end you'll have walked through the entire fork-and-PR workflow *and* reso
 
 ---
 
-## Roles
+### Roles
 
 Pair up. Decide who plays which role:
 
@@ -131,7 +130,7 @@ This paragraph will be purple.
 You can switch roles and repeat if there's time.
 
 
-## $\color{yellowgreen}{\textsf{\textbf{Part 1 — Maintainer: create the repo}}}$
+### $\color{yellowgreen}{\textsf{\textbf{Part 1 — Maintainer: create the repo}}}$
 
 
 1. From any directory, create a new local repo:
@@ -172,7 +171,7 @@ You can switch roles and repeat if there's time.
    ```
 
 
-## Part 2 — Contributor: fork, clone, and prepare a change
+### Part 2 — Contributor: fork, clone, and prepare a change
 
 Get the repository address as described above
 
@@ -210,7 +209,7 @@ Get the repository address as described above
    git commit -m "Set favorite color to cerulean"
    git push -u origin my-favorite-color
    ```
-## Part 3 — Maintainer: make a conflicting change
+### Part 3 — Maintainer: make a conflicting change
 
 While your contributor was working, you also had opinions about color. You're going to change the **same line** to something different.
 
@@ -240,7 +239,7 @@ Now `main` on GitHub has *your* version of that line. The Contributor's fork sti
 
 ---
 
-## Part 4 — Contributor: open the pull request
+### Part 4 — Contributor: open the pull request
 
 
 From inside the project folder, open the PR:
@@ -263,7 +262,7 @@ Both branches changed the same line so Git can't automatically merge. You have t
 
 ---
 
-## Part 5 — Resolve the conflict
+### Part 5 — Resolve the conflict
 
 There are a couple of ways to resolve a PR conflict.
 
@@ -322,7 +321,7 @@ There are a couple of ways to resolve a PR conflict.
 7. Refresh the PR page in your browser. The conflict banner should be gone, and the PR should now say it can be merged.
 
 
-## Part 6 — Maintainer: merge the PR
+### Part 6 — Maintainer: merge the PR
 
 
 1. Review the change on the PR page.
