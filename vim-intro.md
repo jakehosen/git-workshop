@@ -4,6 +4,8 @@ layout: default
 nav_order: 6
 ---
 
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
 # Vim Basics for Git Users
 
 Sooner or later, git is going to drop you into a text editor you didn't ask for. You'll run `git commit` without the `-m` flag, or git will need you to confirm a merge message during conflict resolution, and you're in an unintuitive and minimalist interface.
